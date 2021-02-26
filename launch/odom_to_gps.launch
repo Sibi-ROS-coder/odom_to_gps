@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+	<node pkg="odom_to_gps" type="odom_to_gps.py" name="odom_to_gps" />
+	<node pkg="odom_to_gps" type="gps_tf.py" name="gps_tf" output="screen"/>
+</launch>
